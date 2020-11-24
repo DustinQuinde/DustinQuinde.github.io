@@ -58,18 +58,7 @@
     }
 </script>
 
-<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-
-<df-messenger intent="WELCOME" chat-title="ChatbotRestaurante" agent-id="7d0d3b13-5660-4048-9598-cb705ab0ee97" language-code="es"></df-messenger>
-
-        </article>
-      </div>
-    </div>
-    <footer>
-      <div class="owner">
-      
-      <p><a href="https://github.com/marioluisparadap" class="avatar"><img src="https://github.com/marioluisparadap.png" width="48" height="48"></a> <a href="https://github.com/marioluisparadap">marioluisparadap</a> maintains <a href="https://github.com/marioluisparadap/MarioLuis">MarioLuis</a></p>
-      
+       
 
        
 
