@@ -58,10 +58,11 @@
     }
 </script>
 
-<iframe
-    allow="microphone;"
-    width="350"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/ComputacionParalelaChatBot">
-</iframe>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Agente_Prueba"
+  agent-id="e074cb3a-1238-4975-8c80-baa274854853"
+  language-code="es"
+></df-messenger>
 
