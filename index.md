@@ -1,17 +1,15 @@
 <div>Teachable Machine Image Model</div>
-<p><button type="button" onclick="init()">Start</button></p>
+<button type="button" onclick="init()">Start</button>
 <div id="webcam-container"></div>
 <div id="label-container"></div>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
-
 <script type="text/javascript">
     // More API functions here:
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
     // the link to your model provided by Teachable Machine export panel
-    const URL = "https://teachablemachine.withgoogle.com/models/Ew6TKaIrO/";
+    const URL = "./my_model/";
 
     let model, webcam, labelContainer, maxPredictions;
 
@@ -59,16 +57,3 @@
         }
     }
 </script>
-
-<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-
-<df-messenger intent="WELCOME" chat-title="ChatbotRestaurante" agent-id="7d0d3b13-5660-4048-9598-cb705ab0ee97" language-code="es"></df-messenger>
-
-        </article>
-      </div>
-    </div>
-    <footer>
-      <div class="owner">
-      
-      <p><a href="https://github.com/marioluisparadap" class="avatar"><img src="https://github.com/marioluisparadap.png" width="48" height="48"></a> <a href="https://github.com/marioluisparadap">marioluisparadap</a> maintains <a href="https://github.com/marioluisparadap/MarioLuis">MarioLuis</a></p>
-      
