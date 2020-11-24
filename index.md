@@ -73,15 +73,5 @@
 
        
 
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/marioluisparadap/MarioLuis/tarball/gh-pages" class="tar">tar</a><a href="https://github.com/marioluisparadap/MarioLuis/zipball/gh-pages" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
+ 
 
